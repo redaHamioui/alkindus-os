@@ -1,21 +1,75 @@
-MIT License
+GNU AFFERO GENERAL PUBLIC LICENSE
+Version 3, 19 November 2007
 
-Copyright (c) 2026 Reda Hamioui
+Copyright (C) 2007 Free Software Foundation, Inc. <https://fsf.org/>
+Everyone is permitted to copy and distribute verbatim copies
+of this license document, but changing it is not allowed.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+Preamble
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+The GNU Affero General Public License is a free, copyleft license for
+software and other kinds of works, specifically designed to ensure
+cooperation with the community in the case of network server software.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+The licenses for most software and other practical works are designed
+to take away your freedom to share and change the works. By contrast,
+our General Public Licenses are intended to guarantee your freedom to
+share and change all versions of a program—to make sure it remains free
+software for all its users.
+
+(Full license text follows)
+
+TERMS AND CONDITIONS
+
+0. Definitions.
+
+"This License" refers to version 3 of the GNU Affero General Public License.
+
+"Copyright" also means copyright-like laws that apply to other kinds of
+works, such as semiconductor masks.
+
+"The Program" refers to any copyrightable work licensed under this License.
+
+"You" means any person or entity that exercises rights under this License
+with respect to the Program.
+
+1. Source Code.
+
+The "source code" for a work means the preferred form of the work for
+making modifications to it. "Object code" means any non-source form of a
+work.
+
+2. Basic Permissions.
+
+All rights granted under this License are granted for the term of
+copyright on the Program, and are irrevocable provided the stated
+conditions are met.
+
+3. Conveying Modified Source Versions.
+
+You may convey a work based on the Program, or the modifications to produce
+it from the Program, in the form of source code, provided you also meet
+all of the conditions of this License.
+
+4. Conveying Non-Source Forms.
+
+You may convey a covered work in object code form under the terms of
+sections 6 and 7, provided that you also meet the conditions set forth
+in those sections.
+
+5. Remote Network Interaction; Use with the GNU Affero GPL.
+
+The requirement to provide source code in section 6 applies when you
+convey the object code, and also applies when the covered work is
+interacted with remotely through a computer network.
+
+6. Additional Terms.
+
+You may add terms to specify additional permissions or requirements,
+however certain restrictions apply. See the full license text for details.
+
+(For full legal terms and complete text, see: https://www.gnu.org/licenses/agpl-3.0.txt)
+
+This project is licensed under the Affero General Public License v3.0 (AGPL-3.0).
+
+SPDX-License-Identifier: AGPL-3.0-or-later
