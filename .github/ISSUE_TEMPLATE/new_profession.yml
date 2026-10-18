@@ -1,0 +1,44 @@
+name: "🌍 New Profession Proposal"
+description: "Propose a new profession to add to the ALKINDUS OS knowledge base"
+title: "[Profession] <name>"
+labels: ["new-profession", "triage"]
+body:
+  - type: input
+    id: profession_name
+    attributes:
+      label: "Profession name"
+      description: "e.g. Accountant, Lawyer, HR Manager"
+    validations:
+      required: true
+  - type: input
+    id: isco_code
+    attributes:
+      label: "ISCO-08 code (if known)"
+      description: "e.g. 2411 for Accountants"
+  - type: textarea
+    id: typical_tasks
+    attributes:
+      label: "Typical tasks (5–10)"
+      description: "Map each to a T1–T10 primitive. See docs/TAXONOMY.md"
+      placeholder: |
+        - Receive invoices → T1
+        - Extract fields from PDF → T2
+        - Validate payment → T8 (human required)
+    validations:
+      required: true
+  - type: textarea
+    id: recommended_tools
+    attributes:
+      label: "Recommended OSS tools"
+      description: "GitHub links + licenses"
+  - type: dropdown
+    id: country
+    attributes:
+      label: "Primary country/region"
+      options: ["FR", "US", "EU", "Global", "Other"]
+  - type: checkboxes
+    id: contribute
+    attributes:
+      label: "Willing to help build the blueprint?"
+      options:
+        - label: "Yes, I can help map tasks and test"
