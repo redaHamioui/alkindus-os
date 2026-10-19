@@ -1,0 +1,16 @@
+{
+  "mappings": {
+    "accountant": [
+      { "repo": "https://github.com/tesseract-ocr/tesseract", "reason": "OCR for invoice extraction", "license": "Apache-2.0" },
+      { "repo": "https://github.com/ollama/ollama", "reason": "Local LLM runtime for assisted classification", "license": "MIT" }
+    ],
+    "lawyer": [
+      { "repo": "https://github.com/docuforge/docuforge", "reason": "Document clause extraction and search", "license": "MIT" },
+      { "repo": "https://github.com/windmill-labs/windmill", "reason": "Workflow automation for contract lifecycle", "license": "Apache-2.0" }
+    ],
+    "hr_manager": [
+      { "repo": "https://github.com/windmill-labs/windmill", "reason": "Onboarding automation and approvals", "license": "Apache-2.0" },
+      { "repo": "https://github.com/treasuryguard/treasuryguard", "reason": "Salary-change approval guard", "license": "AGPL-3.0" }
+    ]
+  }
+}
