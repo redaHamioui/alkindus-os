@@ -18,13 +18,23 @@ export default function HomePage() {
 
       <section style={{ display: 'flex', gap: 16 }}>
         {professions.map((p) => (
-          <div key={p.id} style={{ border: '1px solid #ddd', padding: 16, width: 240 }}>
+          <Link
+            key={p.id}
+            href={`/consult?id=${p.id}`}
+            data-test={`card-${p.id}`}
+            style={{
+              display: 'block',
+              border: '1px solid #ddd',
+              padding: 16,
+              width: 240,
+              textDecoration: 'none',
+              color: 'inherit',
+            }}
+          >
             <h3>{p.name}</h3>
             <p>{p.desc}</p>
-            <Link href={`/consult?id=${p.id}`} data-test={`card-${p.id}`}>
-              <a>Start</a>
-            </Link>
-          </div>
+            <span>Start</span>
+          </Link>
         ))}
       </section>
     </div>
