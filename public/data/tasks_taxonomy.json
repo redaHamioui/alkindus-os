@@ -1,0 +1,14 @@
+{
+  "taxonomy": [
+    { "code": "T1", "name": "System administration", "description": "Server and infrastructure operations, configuration, and maintenance." },
+    { "code": "T2", "name": "User support", "description": "User-facing case handling, document processing, and triage." },
+    { "code": "T3", "name": "Deployment", "description": "Application deployment, releases, and environment provisioning." },
+    { "code": "T4", "name": "Security", "description": "Security configuration, secrets management, and policy enforcement." },
+    { "code": "T5", "name": "Monitoring", "description": "Observability, alerts, and system health checks." },
+    { "code": "T6", "name": "Backup", "description": "Data backup, retention, and restore procedures." },
+    { "code": "T7", "name": "R&D", "description": "Research, prototyping, and model tuning tasks." },
+    { "code": "T8", "name": "Access management", "description": "Human approvals, role assignment, and privileged operations." },
+    { "code": "T9", "name": "Compliance", "description": "Audit, reporting, and regulatory compliance tasks." },
+    { "code": "T10", "name": "Network operations", "description": "Network configuration, connectivity, and troubleshooting." }
+  ]
+}

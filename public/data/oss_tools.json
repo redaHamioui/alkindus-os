@@ -1,0 +1,49 @@
+{
+  "tools": [
+    {
+      "id": "ollama",
+      "name": "Ollama",
+      "github": "https://github.com/ollama/ollama",
+      "license": "MIT",
+      "role": "LLM runtime",
+      "self_hosted": true,
+      "maintenance": { "last_commit": "2026-08-01", "commits_per_year": 120 }
+    },
+    {
+      "id": "windmill",
+      "name": "Windmill",
+      "github": "https://github.com/windmill-labs/windmill",
+      "license": "Apache-2.0",
+      "role": "Automation / workflow engine",
+      "self_hosted": true,
+      "maintenance": { "last_commit": "2026-07-15", "commits_per_year": 60 }
+    },
+    {
+      "id": "tesseract",
+      "name": "Tesseract OCR",
+      "github": "https://github.com/tesseract-ocr/tesseract",
+      "license": "Apache-2.0",
+      "role": "OCR engine",
+      "self_hosted": true,
+      "maintenance": { "last_commit": "2026-06-01", "commits_per_year": 200 }
+    },
+    {
+      "id": "docuforge",
+      "name": "DocuForge",
+      "github": "https://github.com/docuforge/docuforge",
+      "license": "MIT",
+      "role": "Document processing / extraction",
+      "self_hosted": true,
+      "maintenance": { "last_commit": "2026-05-12", "commits_per_year": 24 }
+    },
+    {
+      "id": "treasuryguard",
+      "name": "TreasuryGuard",
+      "github": "https://github.com/treasuryguard/treasuryguard",
+      "license": "AGPL-3.0",
+      "role": "Finance approval guard",
+      "self_hosted": true,
+      "maintenance": { "last_commit": "2026-04-30", "commits_per_year": 5 }
+    }
+  ]
+}
